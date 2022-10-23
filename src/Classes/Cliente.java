@@ -1,5 +1,7 @@
 package Classes;
 
+import java.util.Date;
+
 public class Cliente {
 
     private String nome;
@@ -9,8 +11,10 @@ public class Cliente {
     private String telefone;
     private String cidade;
     private String uf;
+    private String data;
+    private String rg;
 
-    public Cliente(String nome, String cpf, String celular, String endereco, String telefone, String cidade, String uf) {
+    public Cliente(String nome, String cpf, String celular, String endereco, String telefone, String cidade, String uf, String data, String rg) {
         this.nome = nome;
         this.cpf = cpf;
         this.celular = celular;
@@ -18,6 +22,8 @@ public class Cliente {
         this.telefone = telefone;
         this.cidade = cidade;
         this.uf = uf;
+        this.data = data;
+        this.rg = rg;
     }
 
     public String getNome() {
@@ -74,5 +80,19 @@ public class Cliente {
 
     public void setUf(String uf) {
         this.uf = uf;
+    }
+    public String getData() {
+        return data;
+    }
+    public void setData(String data) {
+        this.data = data;
+    }
+
+    public String getRg() {
+        return rg;
+    }
+
+    public void setRg(String rg) {
+        this.rg = rg;
     }
 }
