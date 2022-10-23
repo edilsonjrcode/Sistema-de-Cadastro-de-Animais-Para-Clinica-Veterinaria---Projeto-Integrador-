@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Classes.TelaInicial">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="628" height="456"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="d4683" layout-manager="GridLayoutManager" row-count="14" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11837734"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="b29e5" binding="telaInicial" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-393729"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="91989" class="javax.swing.JLabel" binding="lblTitle">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft YaHei UI Light" size="36"/>
+                  <foreground color="-12238886"/>
+                  <icon value="PetDreamIcon-removebg-preview.png"/>
+                  <text value="Clínica Veterinária PetDream"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="db69b" class="javax.swing.JLabel" binding="lblSubTitle">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-393729"/>
+              <font name="Microsoft YaHei UI Light" size="18" style="1"/>
+              <foreground color="-393729"/>
+              <text value="Ficha de Atendimento Clínico de Pequenos Animais"/>
+            </properties>
+          </component>
+          <component id="a12aa" class="javax.swing.JButton" binding="btnCadastrarCliente">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1580816"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <font name="Microsoft YaHei UI" size="14" style="1"/>
+              <foreground color="-13500198"/>
+              <text value="Dados do Responsável"/>
+            </properties>
+          </component>
+          <component id="58b4e" class="javax.swing.JButton" binding="btnCadastrarAnimal">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1580816"/>
+              <borderPainted value="false"/>
+              <font name="Microsoft YaHei UI" size="14" style="1"/>
+              <foreground color="-13500198"/>
+              <text value="Identificação do Animal"/>
+            </properties>
+          </component>
+          <vspacer id="7bf90">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="34bad" class="javax.swing.JButton" binding="btnCadastrarAnamneseGeral">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1580816"/>
+              <borderPainted value="false"/>
+              <font name="Microsoft YaHei UI" size="14" style="1"/>
+              <foreground color="-13500198"/>
+              <text value="Cadastrar Anamnese Geral"/>
+            </properties>
+          </component>
+          <vspacer id="1ad66">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="965ff">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="5af22" class="javax.swing.JButton" binding="btnCadastrarAnamneseEspecifica">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1580816"/>
+              <borderPainted value="false"/>
+              <font name="Microsoft YaHei UI" size="14" style="1"/>
+              <foreground color="-13500198"/>
+              <text value="Cadastrar Anamnese Específica"/>
+            </properties>
+          </component>
+          <component id="5b7b8" class="javax.swing.JButton" binding="btnCadastrarExame">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1580816"/>
+              <borderPainted value="false"/>
+              <font name="Microsoft YaHei UI" size="14" style="1"/>
+              <foreground color="-13500198"/>
+              <text value="Exame Físico"/>
+            </properties>
+          </component>
+          <vspacer id="5bb0">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="1d7ab">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="f3912">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="b691f">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Classes.TelaAnamneseEspecial">
+  <grid id="27dc6" binding="telaAnamneseEspecial" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="588" height="715"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="b9504" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-393729"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="73ae5" class="javax.swing.JLabel" binding="lblTitle">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Microsoft YaHei UI Light" size="36"/>
+              <foreground color="-12238886"/>
+              <icon value="PetDreamIcon-removebg-preview.png"/>
+              <text value="Anamnese Especial"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="ba890">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="5b6c0" layout-manager="GridLayoutManager" row-count="22" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11837734"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1604b" class="javax.swing.JLabel" binding="lblSistemaRespiratorio">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="180" height="14"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Microsoft JhengHei UI" size="16" style="1"/>
+              <foreground color="-393729"/>
+              <text value="Sistema Respitório:"/>
+            </properties>
+          </component>
+          <component id="2c24d" class="javax.swing.JLabel" binding="lblSistemaCardiovascular">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="230" height="14"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Microsoft JhengHei UI" size="16" style="1"/>
+              <foreground color="-393729"/>
+              <text value="Sistema Cardiovascular:"/>
+            </properties>
+          </component>
+          <component id="f32c8" class="javax.swing.JTextField" binding="tfSistemaRespiratorio">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="550" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial" size="14"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="62901" class="javax.swing.JLabel" binding="lblSistemaDigestorio">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="230" height="14"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Microsoft JhengHei UI" size="16" style="1"/>
+              <foreground color="-393729"/>
+              <text value="Sistema Digestório:"/>
+            </properties>
+          </component>
+          <component id="a09e7" class="javax.swing.JTextField" binding="tfSistemaCardiovascular">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="550" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial" size="14"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="f24f5" class="javax.swing.JLabel" binding="lblSistemaUrinario">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="230" height="14"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Microsoft JhengHei UI" size="16" style="1"/>
+              <foreground color="-393729"/>
+              <text value="Sistema Urinário:"/>
+            </properties>
+          </component>
+          <component id="9b972" class="javax.swing.JLabel" binding="lblSistemaReprodutor">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="230" height="14"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Microsoft JhengHei UI" size="16" style="1"/>
+              <foreground color="-393729"/>
+              <text value="Sistema Reprodutor:"/>
+            </properties>
+          </component>
+          <component id="18131" class="javax.swing.JTextField" binding="tfSistemaDigestorio">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="550" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial" size="14"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="29d34" class="javax.swing.JTextField" binding="tfSistemaUrinario">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="550" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial" size="14"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="dd808" class="javax.swing.JLabel" binding="lblSistemaLocomotor">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="230" height="14"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Microsoft JhengHei UI" size="16" style="1"/>
+              <foreground color="-393729"/>
+              <text value="Sistema Locomotor:"/>
+            </properties>
+          </component>
+          <component id="18d" class="javax.swing.JLabel" binding="lblSistemaNeurologico">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="230" height="14"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Microsoft JhengHei UI" size="16" style="1"/>
+              <foreground color="-393729"/>
+              <text value="Sistema Neurológico:"/>
+            </properties>
+          </component>
+          <component id="5a9c0" class="javax.swing.JLabel" binding="lblPeleAnexos">
+            <constraints>
+              <grid row="15" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="230" height="14"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Microsoft JhengHei UI" size="16" style="1"/>
+              <foreground color="-393729"/>
+              <text value="Pele e anexos:"/>
+            </properties>
+          </component>
+          <component id="12e57" class="javax.swing.JLabel" binding="lblOlhos">
+            <constraints>
+              <grid row="17" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="230" height="14"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Microsoft JhengHei UI" size="16" style="1"/>
+              <foreground color="-393729"/>
+              <text value="Olhos:"/>
+            </properties>
+          </component>
+          <component id="2ce15" class="javax.swing.JTextField" binding="tfSistemaReprodutor">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="550" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial" size="14"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="276c3" class="javax.swing.JTextField" binding="tfSistemaLocomotor">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="550" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial" size="14"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="619e6" class="javax.swing.JTextField" binding="tfSistemaNeurologico">
+            <constraints>
+              <grid row="14" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="550" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial" size="14"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1a5dd" class="javax.swing.JTextField" binding="tfPeleAnexos">
+            <constraints>
+              <grid row="16" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="550" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial" size="14"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="93eb4" class="javax.swing.JTextField" binding="tfOlhos">
+            <constraints>
+              <grid row="18" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="1" use-parent-layout="false">
+                <preferred-size width="550" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial" size="14"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="48103">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="78707" class="javax.swing.JButton" binding="btnEnviar">
+            <constraints>
+              <grid row="20" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="60" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16735654"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <font name="Arial" size="14" style="1"/>
+              <foreground color="-2894893"/>
+              <text value="Cadastrar"/>
+            </properties>
+          </component>
+          <component id="80bf" class="javax.swing.JButton" binding="btnCancelar">
+            <constraints>
+              <grid row="20" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="80" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-6160384"/>
+              <borderPainted value="false"/>
+              <font name="Arial" size="14" style="1"/>
+              <foreground color="-2894893"/>
+              <text value="Cancelar"/>
+            </properties>
+          </component>
+          <vspacer id="cb56">
+            <constraints>
+              <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="bbcda">
+            <constraints>
+              <grid row="21" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
