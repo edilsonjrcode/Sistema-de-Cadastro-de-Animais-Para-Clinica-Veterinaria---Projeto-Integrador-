@@ -32,7 +32,6 @@ public class TelaInicial extends JFrame{
     }
 
     private void abrirTelaAnamneseEspecial(ActionEvent actionEvent) {TelaAnamneseEspecial telaAnamneseEspecial = new TelaAnamneseEspecial();}
-
     private void abrirTelaAnamneseGeral(ActionEvent actionEvent) { TelaAnamneseGeral abrirAnamnese = new TelaAnamneseGeral();}
     private void abrirTelaCliente(ActionEvent actionEvent) {
         TelaClientes abrirTelaCliente = new TelaClientes();

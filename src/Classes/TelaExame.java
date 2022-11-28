@@ -2,6 +2,7 @@ package Classes;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 
 public class TelaExame extends JFrame{
     private JPanel telaExameFisico;
@@ -52,5 +53,36 @@ public class TelaExame extends JFrame{
         setResizable(false);
         setLocationRelativeTo(null);
         setVisible(true);
+
+        btnEnviar.addActionListener(this::retorno);
+        btnCancelar.addActionListener(this::fecharJanela);
+
+    }
+
+    public void fecharJanela(ActionEvent actionEvent) {
+        this.dispose();
+    }
+
+    private void retorno(ActionEvent actionEvent) {
+        System.out.println("Exame Físico\n");
+        System.out.println("Postura: " + tfPostura.getText());
+        System.out.println("Nível de Consciência: " + tfNivelConsciencia.getText());
+        System.out.println("Escore Corporal: " + tfEscoreCorporal.getText());
+        System.out.println("TR: " + tfTr.getText());
+        System.out.println("FR: " + tfFr.getText());
+        System.out.println("FC: " + tfFc.getText());
+        System.out.println("TPC: " + tfTpc.getText());
+        System.out.println("Pulso: " + tfPulso.getText());
+        System.out.println("Hidratação: " + tfHidratacao.getText());
+        System.out.println("Linfonodos Submand.: " + tfLinfonodosSub.getText());
+        System.out.println("Linf. Pré Encapsuladores: " + tfLinfPreEncap.getText());
+        System.out.println("Linf. Poplíteos: " + tfLinfPopliteos.getText());
+        System.out.println("Linf. Inguinais: " + tfLinfInguinais.getText());
+        System.out.println("Mucosa Ocular: " + tfMucosaOcular.getText());
+        System.out.println("Mucosa Oral: " + tfMucosaOcular.getText());
+        System.out.println("Mucosa Peniana: " + tfMucosaOcular.getText());
+        System.out.println("Mucosa Anal: " + tfMucosaOcular.getText());
+
+        this.dispose();
     }
 }

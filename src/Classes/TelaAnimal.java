@@ -35,7 +35,27 @@ public class TelaAnimal extends JFrame{
         setResizable(false);
         setLocationRelativeTo(null);
 
-        setVisible(true);
+        btnEnviar.addActionListener(this::retorno);
+        btnCancelar.addActionListener(this::fecharJanela);
 
+        setVisible(true);
+    }
+
+    public void fecharJanela(ActionEvent actionEvent) {
+        this.dispose();
+    }
+
+    private void retorno(ActionEvent actionEvent) {
+        System.out.println("Identificação do Animal\n");
+        System.out.println("Nome: " + tfNome.getText());
+        System.out.println("Espécie: " + tfEspecie.getText());
+        System.out.println("Pelagem: " + tfPelagem.getText());
+        System.out.println("Raça: " + tfRaca.getText());
+        System.out.println("Sexo: " + cbSexo.getSelectedItem());
+        System.out.println("Idade: " + cbIdade.getSelectedItem() + " " + cbIdadeAno.getSelectedItem());
+        System.out.println("Peso: " + tfPeso.getText());
+        System.out.println("Procedência: " + tfProcedencia.getText());
+
+        this.dispose();
     }
 }

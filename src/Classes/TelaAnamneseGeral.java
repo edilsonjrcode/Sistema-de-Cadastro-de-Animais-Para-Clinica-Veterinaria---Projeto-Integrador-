@@ -2,6 +2,7 @@ package Classes;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 
 public class TelaAnamneseGeral extends JFrame{
     private JLabel lblTitle;
@@ -30,5 +31,25 @@ public class TelaAnamneseGeral extends JFrame{
         setLocationRelativeTo(null);
 
         setVisible(true);
+
+        btnEnviar.addActionListener(this::retorno);
+        btnCancelar.addActionListener(this::fecharJanela);
+
+    }
+
+    public void fecharJanela(ActionEvent actionEvent) {
+        this.dispose();
+    }
+
+    private void retorno(ActionEvent actionEvent) {
+        System.out.println("Anamnese Geral\n");
+        System.out.println("Queixa principaç: " + taQueixaPrincipal.getText());
+        System.out.println("Histórico Médico Pregresso: " + taHistoricoMedico.getText());
+        System.out.println("Alimentação: " + tfAlimentacao.getText());
+        System.out.println("Vermifugação: " + tfVermifugacao.getText());
+        System.out.println("Contactantes: " + tfContactantes.getText());
+        System.out.println("Ambiente em que vive: " + tfAmbiente.getText());
+
+        this.dispose();
     }
 }

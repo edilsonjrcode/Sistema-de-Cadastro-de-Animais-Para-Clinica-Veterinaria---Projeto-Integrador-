@@ -111,7 +111,7 @@
               <text value="RG:"/>
             </properties>
           </component>
-          <component id="189f" class="javax.swing.JTextField">
+          <component id="189f" class="javax.swing.JTextField" binding="tfCpf">
             <constraints>
               <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="1" use-parent-layout="false">
                 <preferred-size width="200" height="30"/>
@@ -255,7 +255,7 @@
               <text value="Estado (UF):"/>
             </properties>
           </component>
-          <component id="9c188" class="javax.swing.JComboBox" binding="tfUf">
+          <component id="9c188" class="javax.swing.JComboBox" binding="cbUf">
             <constraints>
               <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="1" use-parent-layout="false">
                 <preferred-size width="100" height="20"/>

@@ -16,7 +16,7 @@ public class TelaClientes extends JFrame{
     private JLabel lblCidade;
     private JTextField tfCidade;
     private JLabel lblUf;
-    private JComboBox tfUf;
+    private JComboBox cbUf;
     private JButton btnEnviar;
     private JButton btnCancelar;
     private JLabel lblDataAtendimento;
@@ -25,6 +25,7 @@ public class TelaClientes extends JFrame{
     private JTextField tfRg;
     private JPanel telaDadosDoResponsável;
     private JLabel lblTitulo;
+    private JTextField tfCpf;
 
     public TelaClientes(){
         setTitle("Pet Dream - Dados do Responsável");
@@ -33,11 +34,28 @@ public class TelaClientes extends JFrame{
         setResizable(false);
         setLocationRelativeTo(null);
 
-        btnCancelar.addActionListener(this::Fechar);
-
         setVisible(true);
-    }
-    private void Fechar(ActionEvent actionEvent) {
 
+        btnEnviar.addActionListener(this::retorno);
+        btnCancelar.addActionListener(this::fecharJanela);
+    }
+
+    public void fecharJanela(ActionEvent actionEvent) {
+        this.dispose();
+    }
+
+    private void retorno(ActionEvent actionEvent) {
+        System.out.println("Dados do Responsável\n");
+        System.out.println("Nome: " + tfNome.getText());
+        System.out.println("CPF: " + tfCpf.getText());
+        System.out.println("Celular: " + tfCelular.getText());
+        System.out.println("Endereço: " + cbEndereco.getSelectedItem() + " " +  tfEndereco.getText());
+        System.out.println("Telefone: " + tfTelefone.getText());
+        System.out.println("Cidade: " + tfCidade.getText());
+        System.out.println("Estado: " + cbUf.getSelectedItem());
+        System.out.println("Data: " + tfDataAtendimento.getText());
+        System.out.println("RG: " + tfRg.getText());
+
+        this.dispose();
     }
 }
